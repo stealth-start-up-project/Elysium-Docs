@@ -1,0 +1,586 @@
+<!--/ Browser Mockup Mixin-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <title>Elysium | Full Functional NFT Marketplace</title>
+        <meta name="description" content="" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="robots" content="all,follow" />
+        <!-- Bootstrap CSS-->
+        <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css" />
+        <link href="https://fonts.googleapis.com/css2?family=Anybody:wght@300;400;700&display=swap" rel="stylesheet">
+        <!-- code perttier-->
+        <link rel="stylesheet" href="vendor/color-themes-for-google-code-prettify/themes/tranquil-heart.css" />
+        <!-- theme stylesheet-->
+        <link rel="stylesheet" href="css/style.default.css" />
+        <!-- Custom stylesheet - for your changes-->
+        <link rel="stylesheet" href="css/custom.css" />
+        <!-- Favicon-->
+        <link rel="shortcut icon" href="img/favicon.png" />
+        <!-- Tweaks for older IEs-->
+        <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+            <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+        <![endif]-->
+    </head>
+    <body>
+        <div class="container-fluid">
+            <!-- HELLO SECTION-->
+            <section class="text-center mb-5 hero">
+                <img class="mb-4" src="img/logo.svg" alt="Ionic Counter" width="150" />
+                <!-- Section heading-->
+                <header class="bg-heading-text mb-2" data-text="Documentation">
+                    <div class="index-forward">
+                        <p class="text-uppercase text-primary font-weight-bold small mb-2"></p>
+                        <h1 class="text-dark">Elysium Documentation</h1>
+                    </div>
+                </header>
+                <div class="row">
+                    <div class="col-lg-9 mx-auto">
+                        <p class="lead mb-3">
+                            Thank you for purchasing our product. If you have any questions that are beyond the scope of
+                            this help file, please feel free to email us. This is the second version of this app, we're
+                            promising with keeping push new features and enhancement. Thank you very much!
+                        </p>
+                    </div>
+                </div>
+                <ul class="list-unstyled intro-list mx-auto text-left">
+                    <li class="px-3 py-2 bg-light mb-1">
+                        <span class="font-weight-bold text-uppercase mb-0 small text-muted">Created: </span
+                        ><span class="text-gray-200 pl-2 text-sm">15 April 2022</span>
+                    </li>
+                    <li class="px-3 py-2 bg-light mb-1">
+                        <span class="font-weight-bold text-uppercase mb-0 small text-muted">Created By: </span
+                        ><span class="text-gray-200 pl-2 text-sm">
+                            <a href="https://web3monkeys.com">Web3 Monkeys</a>
+                        </span>
+                    </li>
+                    <li class="px-3 py-2 bg-light mb-1">
+                        <span class="font-weight-bold text-uppercase mb-0 small text-muted">Author Email: </span
+                        ><a class="reset-anchor pl-2 text-sm reset-anchor" href="hello@web3monkeys.com"
+                            >hello@web3monkeys.com</a
+                        >
+                    </li>
+                </ul>
+            </section>
+        </div>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-3 mb-5 mb-lg-0">
+                    <!-- navbar-->
+                    <div class="sidebar sticky-top">
+                        <ul class="sidebar-list list-unstyled mb-0">
+                            <li class="sidebar-item">
+                                <a class="sidebar-link link-scroll font-weight-light" href="#intro"
+                                    ><i class="fas fa-marker fa-fw"></i> Introduction</a
+                                >
+                            </li>
+                            <li class="sidebar-item">
+                                <a class="sidebar-link link-scroll font-weight-light" href="#requirements"
+                                    ><i class="fas fa-layer-group fa-fw"></i> Requirements</a
+                                >
+                            </li>
+                            <li class="sidebar-item">
+                                <a class="sidebar-link link-scroll font-weight-light" href="#getStarted"
+                                    ><i class="fab fa-algolia fa-fw"></i> Getting Started</a
+                                >
+                            </li>
+                            <li class="sidebar-item">
+                                <a class="sidebar-link link-scroll font-weight-light" href="#installation"
+                                    ><i class="fab fa-react fa-fw"></i> Installation</a
+                                >
+                            </li>
+                            <li class="sidebar-item">
+                                <a class="sidebar-link link-scroll font-weight-light" href="#settings"
+                                    ><i class="fas fa-cog fa-fw"></i> Settings</a
+                                >
+                            </li>
+                            <li class="sidebar-item">
+                                <a class="sidebar-link link-scroll font-weight-light" href="#deployment"
+                                    ><i class="fas fa-server fa-fw"></i> Deployment</a
+                                >
+                            </li>
+                            <li class="sidebar-item">
+                                <a class="sidebar-link link-scroll font-weight-light" href="#credits"
+                                    ><i class="fas fa-copyright fa-fw"></i>Sources &amp; Credits</a
+                                >
+                            </li>
+                            <li class="sidebar-item">
+                                <a class="sidebar-link link-scroll font-weight-light" href="#changelog"
+                                    ><i class="fas fa-copyright fa-fw"></i>Changelog</a
+                                >
+                            </li>
+                            <li class="sidebar-item">
+                                <a class="sidebar-link link-scroll font-weight-light" href="#goodbye"
+                                    ><i class="fas fa-heart fa-fw"></i>Thanks You</a
+                                >
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-9">
+                    <!-- INTRODUCTION SECTION ======================================================================== -->
+                    <section class="bg-light mb-5" id="intro">
+                        <!-- Section heading-->
+                        <header class="bg-heading-text mb-3" data-text="Introduction">
+                            <div class="index-forward">
+                                <p class="text-uppercase text-primary font-weight-bold small mb-2">Intro</p>
+                                <h2>Introduction</h2>
+                            </div>
+                        </header>
+                        <p class="lead">
+                            <strong>Elysium</strong> is an online marketplace where you can buy, sell or trade NFT tokens. It gives creators a direct way to sell their non-fungible assets such as artwork, and customers can purchase these assets by using a cryptocurrency.
+                        </p>
+
+                        <p class="lead">
+                            Anyone can sign up to Elysium and link his crypto wallet with it [Supports only MetaMask Wallet for now] and start trading. Elysium will feature listings of all of the different kinds of NFTs such as art, collectibles, domain names, music, photography, sports trading cards... etc.
+                        </p>
+
+                        <p class="lead">
+                            By using Elysium, you will normally be given a chance to buy or sell NFT either at a fixed price or as a kind of auction [auctions will be available in the next release]. If you’ve purchased an NFT, it basically means that you have exclusive ownership of this unique digital asset and you have the ability to resell it again.
+                        </p>
+                    </section>
+                    <!-- FEATURES SECTION ======================================================================== -->
+                    <section class="bg-light mb-5" id="requirements">
+                        <!-- Section heading-->
+                        <header class="bg-heading-text mb-3" data-text="Requirements">
+                            <div class="index-forward">
+                                <p class="text-uppercase text-primary font-weight-bold small mb-2">Requirements</p>
+                                <h2>Requirements</h2>
+                            </div>
+                        </header>
+                        <ol class="p-0 custom-numbers">
+                            <li class="mb-2">
+                                Code Editing Software (eg: Dreamweaver, Sublime Text, Visual Studio Code)
+                            </li>
+                            <li class="mb-2">Local Ethereum environment, we prefer Ganache</li>
+                            <li class="mb-2">Crypto Wallet. MetaMask</li>
+                            <li class="mb-2">Node.js environment</li>
+                        </ol>
+                    </section>
+                    <!-- GET STARTED SECTION ========================================================================  -->
+                    <section class="bg-light mb-5" id="getStarted">
+                        <!-- Section heading-->
+                        <header class="bg-heading-text mb-4" data-text="Structure">
+                            <div class="index-forward">
+                                <p class="text-uppercase text-primary font-weight-bold small mb-2">Getting started</p>
+                                <h2>Getting started</h2>
+                            </div>
+                        </header>
+                        <p class="text-muted mb-5">
+                            This app uses <strong class="fw-bold text-dark">React.js functional components</strong>,
+                            making advantage of the React Hooks. Also, this app is using
+                            <strong class="fw-bold text-dark">Solidity & Web3.js</strong> to create & deal with Smart
+                            Contracts.
+                        </p>
+                        <h4 class="h6">Template's directory structure</h4>
+                        <p class="text-muted">
+                            As this App is using <code>Truffle</code> framework, you should the same structure you get
+                            from running this truffle command <code>truffle unbox react</code>
+                        </p>
+                        <ul>
+                            <li><code>/client</code> - Serves the app Front End components & functionalities.</li>
+                            <li><code>/contracts</code> - Contains app smart contracts.</li>
+                            <li>
+                                <code>/migrations</code> - contains JavaScript files that help you to generate abis from
+                                our smart contracts.
+                            </li>
+                            <li><code>/test</code> - Some unit test function to validate the app functionality</li>
+                            <li>
+                                <code>.gitattributes</code>
+                            </li>
+                            <li>
+                                <code>.gitignore</code>
+                            </li>
+                            <li>
+                                <code>truffle-config.js</code> -
+                                <span class="text-muted"
+                                    >Configuration file for truffle framework that works on Ganache</span
+                                >
+                            </li>
+                        </ul>
+                    </section>
+                    <!-- Installation -->
+                    <section class="bg-light mb-5" id="installation">
+                        <!-- Section heading-->
+                        <header class="bg-heading-text mb-4" data-text="HTML ">
+                            <div class="index-forward">
+                                <p class="text-uppercase text-primary font-weight-bold small mb-2">Installation</p>
+                                <h2>Installation</h2>
+                            </div>
+                        </header>
+
+                        <p class="mb-3">
+                            <strong>1.</strong> Make sure you're installing
+                            <strong class="h6 mb-0 text-dark"> Truffle</strong> on your local machine:
+                        </p>
+                        <ul class="text-muted text-sm">
+                            <li>On your command line, run the following command</li>
+                        </ul>
+                        <pre class="prettyprint lang-js linenums px-4 py-2 mb-4">
+npm install -g truffle
+</pre
+                        >
+                        <p class="mb-3">
+                            <strong>2.</strong> Download and install
+                            <strong class="h6 mb-0 text-dark"> Ganache</strong> on your local machine, download from
+                            <a href="https://trufflesuite.com/ganache/" target="_blank">here</a>
+                        </p>
+
+                        <p class="mb-3"><strong>3.</strong> Run the Ganache local network after installing it.</p>
+
+                        <p class="mb-3">
+                            <strong>4.</strong> Inside <code>\client</code> directory, install react dependencies:
+                        </p>
+                        <pre class="prettyprint lang-js linenums px-4 py-2 mb-4">
+npm install
+</pre>
+
+                        <p class="mb-3"><strong>5.</strong> Run the following command in your root directory:</p>
+                        <pre class="prettyprint lang-js linenums px-4 py-2 mb-4">
+truffle migrate --network development --reset
+</pre>
+                        <p class="mb-3"><strong>6.</strong> Install truffle dependencies at the root directory:</p>
+                        <pre class="prettyprint lang-js linenums px-4 py-2 mb-4">
+npm install
+</pre
+                        >
+                        <p class="mb-3">
+                            <strong>7.</strong> After installing node modules, still on <code>\client</code> directory,
+                            run the development server, and you're ready to go.
+                        </p>
+                        <pre class="prettyprint lang-js linenums px-4 py-2 mb-4">
+npm start
+</pre
+                        >
+                    </section>
+
+                    <section class="bg-light mb-5" id="settings">
+                        <!-- Section heading-->
+                        <header class="bg-heading-text mb-4" data-text="HTML ">
+                            <div class="index-forward">
+                                <p class="text-uppercase text-primary font-weight-bold small mb-2">Settings</p>
+                                <h2 class="text-dark mb-5">Important settings</h2>
+
+                                <h4 class="h5 text-dark">• Render NFTs without MetaMask:</h4>
+                                <p class="lead text-muted mb-2">
+                                    You have to add the Network RPC URL of the network where you deploy your contracts to <code>settings</code> object. from
+                                    <code>/client/helpers/settings</code> change the <code>rpcUrl</code> property with your network RPC URL.
+                                </p>
+                                <p class="lead text-muted mb-4">
+                                    Also, change the <code>networkId</code> property to your network chain ID.
+                                </p>
+
+                                <h4 class="h5 text-dark">• Change logo:</h4>
+                                <p class="lead text-muted mb-4">
+                                    You can change theme logo and brand name from <code>settings</code> object. from
+                                    <code>/client/helpers/settings</code>
+                                </p>
+
+                                <h4 class="h5 text-dark">• Set your custom commission</h4>
+                                <p class="lead text-muted mb-3">
+                                    To change sale commission you can change it from 2 places, the 2 are mandatory: 
+                                </p>
+                                <p class="mb-2">1. At <code>/client/helpers/settings.js</code></code> from <code>settings</code> object, on <code>saleCommession</code> property.
+                                    1000 represents 100% e.g. 250 represents 25% etc...</p>
+                                <p class="mb-4">2. At <code>/migrations/2_deploy_contracts.js</code></code> from <code>fees</code> variable.
+                                    put the same value you've added to <code>settings</code> file</p>
+
+                                <h4 class="h5 text-dark">• Change forms addresses</h4>
+                                <p class="lead text-muted mb-4">
+                                    This app uses <strong class="text-dark">Formspree</strong> for sending contact requests and newsletter
+                                    subscriptions, register to
+                                    <a href="#https://formspree.io/" target="_blank">Formspree</a> and follow
+                                    instructions to get forms id and add theme to <code>settings</code> object
+                                </p>
+
+                                <h4 class="h5 text-dark">• Set featured items [Marketplace's choice]</h4>
+                                <p class="lead text-muted mb-0">
+                                    From <code>settings</code> object, you can add arrays of featured items into
+                                    <code>featuredItems</code> property, each item inside the array represents the
+                                    <code>id</code> of desired asset, it starts from 1, so carefully pick your needed
+                                    assets.
+                                </p>
+                            </div>
+                        </header>
+                    </section>
+
+                    <!-- Deployment -->
+                    <section class="bg-light mb-5" id="deployment">
+                        <!-- Section heading-->
+                        <header class="bg-heading-text mb-4" data-text="deployment ">
+                            <div class="index-forward">
+                                <p class="text-uppercase text-primary font-weight-bold small mb-2">Deployment</p>
+                                <h2>Deployment</h2>
+                            </div>
+                        </header>
+
+                        <h5 class="mb-3">
+                            <strong>1.</strong> Host Provider
+                            <span class="text-small text-muted fw-normal"> - for the Front End</span>
+                        </h5>
+                        <p class="mb-3">
+                            Ideally, any share hosting that supports <strong>React</strong> will work for you, if you
+                            know how to configure and deploy a React project, you'll only need to upload
+                            <code>/client</code> folder and run <code>npm run build</code> on your server.
+                        </p>
+
+                        <p class="mb-3">
+                            If you don't know how to run the build on your server, follow the following steps.
+                        </p>
+                        <ul class="text-muted text-sm">
+                            <li>Inside <code>/client</code> directory, run the following command</li>
+                        </ul>
+                        <pre class="prettyprint lang-js linenums px-4 py-2 mb-4">
+npm run build
+</pre
+                        >
+                        <ul class="text-muted text-sm mb-5">
+                            <li>
+                                This command will generate <code>/build</code> directory inside
+                                <code>/client</code> folder
+                            </li>
+                            <li>
+                                Upload only the <code>/build</code> directory to your server. And you're done for UI
+                                part
+                            </li>
+                        </ul>
+
+                        <h5 class="mb-3">
+                            <strong>2.</strong> Network Deployment
+                            <span class="text-small text-muted fw-normal"> - for the smart contracts</span>
+                        </h5>
+                        <p class="mb-3">
+                            Add your network configs inside <code>truffle-config.js</code> file, we've included the
+                            configs of <strong>BSC</strong> and <strong>Polygon Matic</strong> networks, you can add
+                            your desired Ethereum network inside the <code>networks</code> object.
+                        </p>
+                        <p class="mb-3">
+                            Add your MetaMask wallet secret passphrase to the <code>mnumenic</code> variable.
+                        </p>
+
+                        <p class="mb-3">
+                            Make sure that you have credits into the MetaMask account that will run the deployments, if
+                            you want to run it with another account, make sure to include a third parameter to the
+                            <code>provider: () => </code> function, this parameter represents the index of your account
+                            into your wallet, e.g. if you will run with the <strong>third</strong> account, then add
+                            <strong>2</strong>
+                        </p>
+
+                        <pre class="prettyprint lang-js linenums px-4 py-2 mb-4">
+provider: () => new HDWalletProvider(mnemonic, "https://rpc-mumbai.maticvigil.com", 2)
+</pre
+                        >
+
+                        <p class="mb-3">
+                            After you finish the configuration, run this command with the network name at the root
+                            directory
+                        </p>
+                        <pre class="prettyprint lang-js linenums px-4 py-2 mb-4">
+truffle migrate --network yourNetworkName --reset
+</pre
+                        >
+                    </section>
+                    <!-- HOW IT WORKS SECTION        -->
+                    <section class="bg-light mb-5" id="CSS">
+                        <!-- Section heading-->
+                        <header class="bg-heading-text mb-4" data-text="CSS ">
+                            <div class="index-forward">
+                                <p class="text-uppercase text-primary font-weight-bold small mb-2">Workflow</p>
+                                <h2>How it works</h2>
+                            </div>
+                        </header>
+                        <p class="mb-3 text-muted">
+                            Before we explain how everything interact with each other, let's see what functionalities
+                            does this app provide:
+                        </p>
+                        <ol class="mb-0">
+                            <li class="mb-2">
+                                <strong>User connect crypto wallet with the marketplace</strong>
+                            </li>
+                            <li class="mb-2">
+                                <strong>User sign up</strong>
+                            </li>
+                            <li class="mb-2">
+                                <strong>Mint/Create NFT and define characteristics</strong>
+                            </li>
+                            <li class="mb-2">
+                                <strong>List digital assets/NFTs for sale</strong>
+                            </li>
+                            <li class="mb-2">
+                                <strong>NFTs transferred to the marketplace.</strong>
+                            </li>
+                            <li class="mb-2">
+                                <strong>Buyers/investors purchase the NFT token.</strong>
+                            </li>
+                            <li class="mb-2">
+                                <strong>Marketplace transfers the NFT token to the buyer.</strong>
+                            </li>
+                            <li class="mb-2">
+                                <strong>Buyers can redistribute the NFT token.</strong>
+                            </li>
+                        </ol>
+                    </section>
+                    <!-- CERDITS SECTION ======================================================================== -->
+                    <section class="bg-light mb-5" id="credits">
+                        <!-- Section heading-->
+                        <header class="bg-heading-text mb-3" data-text="Credits">
+                            <div class="index-forward">
+                                <p class="text-uppercase text-primary font-weight-bold small mb-2">
+                                    Sources &amp; Credits
+                                </p>
+                                <h2>Credits</h2>
+                            </div>
+                        </header>
+                        <p class="lead text-muted mb-4">
+                            The following links lead to the scripts we have used in this app, they are free lisenced and
+                            available to use.
+                        </p>
+                        <ol class="p-0 custom-numbers mb-5">
+                            <li class="mb-2">
+                                <strong>Bootstrap 5 - </strong
+                                ><a class="reset-anchor text-primary" href="https://getbootstrap.com" target="_blank"
+                                    >https://getbootstrap.com</a
+                                >
+                            </li>
+                            <li class="mb-2">
+                                <strong>Line Awesome - </strong
+                                ><a
+                                    class="reset-anchor text-primary"
+                                    href="https://icons8.com/line-awesome"
+                                    target="_blank"
+                                    >https://icons8.com/line-awesome</a
+                                >
+                            </li>
+                            <li class="mb-2">
+                                <strong>Swiper.js - </strong
+                                ><a class="reset-anchor text-primary" href="https://swiperjs.com/" target="_blank"
+                                    >https://swiperjs.com/</a
+                                >
+                            </li>
+                            <li class="mb-2">
+                                <strong>Framer Motion - </strong>
+                                <a
+                                    class="reset-anchor text-primary"
+                                    href="https://www.npmjs.com/package/framer-motion"
+                                    target="_blank"
+                                    >https://www.npmjs.com/package/framer-motion</a
+                                >
+                            </li>
+                            <li class="mb-2">
+                                <strong>React Parallax Mouse - </strong>
+                                <a
+                                    class="reset-anchor text-primary"
+                                    href="https://www.npmjs.com/package/react-parallax-mouse"
+                                    target="_blank"
+                                    >https://www.npmjs.com/package/react-parallax-mouse</a
+                                >
+                            </li>
+                            <li class="mb-2">
+                                <strong>React toast notifications - </strong>
+                                <a
+                                    class="reset-anchor text-primary"
+                                    href="https://jossmac.github.io/react-toast-notifications/"
+                                    target="_blank"
+                                    >https://jossmac.github.io/react-toast-notifications/</a
+                                >
+                            </li>
+                            <li class="mb-2">
+                                <strong>React Dropdown Select - </strong
+                                ><a
+                                    class="reset-anchor text-primary"
+                                    href="https://github.com/sanusart/react-dropdown-select"
+                                    target="_blank"
+                                    >https://github.com/sanusart/react-dropdown-select</a
+                                >
+                            </li>
+                            <li class="mb-2">
+                                <strong>Formspree - </strong
+                                ><a
+                                    class="reset-anchor text-primary"
+                                    href="https://www.npmjs.com/package/@formspree/react"
+                                    target="_blank"
+                                    >https://www.npmjs.com/package/@formspree/react</a
+                                >
+                            </li>
+                        </ol>
+                        <p class="text-muted">
+                            <strong class="h6 mb-0 text-dark">Note! </strong> - All images used are not allowed to use,
+                            it's only for demo purpose.
+                        </p>
+                    </section>
+                    <section class="bg-light mb-5" id="changelog">
+                        <header class="bg-heading-text mb-3" data-text="Credits">
+                            <div class="index-forward">
+                                <p class="text-uppercase text-primary font-weight-bold small mb-2">Update log</p>
+                                <h2>Changelog</h2>
+                            </div>
+                        </header>
+
+                        <div class="mt-5">
+                            <div class="pre-outer position-relative mb-4">
+                                <div class="pre-mockup"></div>
+                                <div class="pre-tab-indicator">changelog</div>
+                                <pre class="prettyprint lang-html linenums px-4 pb-4">
+
+----------------------------------------
+    v1.1.0
+----------------------------------------
+    - Supporting audio/video NFTs
+    - Adding blocking inappropriate NFTs/Auctions functionality
+    - Adding Auctions list to the admin panel
+    - Adding switch network functionality
+    - Removing blocked NFTs from transaction records
+    - Generating random placeholder avatars during registeration
+    - General tweaks and bug fixes
+
+----------------------------------------
+    v1.0.0
+----------------------------------------
+    - Initial release
+                              </pre
+                                >
+                            </div>
+                        </div>
+                    </section>
+                    <!-- GOODBYE SECTION ======================================================================== -->
+                    <section class="bg-light mb-5" id="goodbye">
+                        <!-- Section heading-->
+                        <header class="bg-heading-text mb-3" data-text="Thanks you">
+                            <div class="index-forward">
+                                <p class="text-uppercase text-primary font-weight-bold small mb-2">Thanks you</p>
+                                <h2>Goodbye</h2>
+                            </div>
+                        </header>
+                        <p class="lead text-muted mb-5">
+                            Once again, we would like to thank you for trusting my product, we'll always stand out for
+                            your help, promising with continuous enhancements and adding new features, we'll be grateful
+                            if you rate your experience with this product, this will help us to continue improving this
+                            item.
+                        </p>
+                        <h5 class="mb-0">Thank you</h5>
+                        <p class="text-sm text-primary">Mohamed Hasan</p>
+                    </section>
+                </div>
+            </div>
+        </div>
+        <!--  SCROLL TOP BUTTON -->
+        <div class="scroll-top-btn" id="scrollTop">
+            <i class="fas fa-long-arrow-alt-up"></i><span class="font-weight-bold text-uppercase small">Top</span>
+        </div>
+        <!-- JavaScript files-->
+        <script src="vendor/jquery/jquery.min.js"></script>
+        <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+        <script src="js/prettify.js"></script>
+        <script src="js/front.js"></script>
+        <!-- FontAwesome CSS - loading as last, so it doesn't block rendering-->
+        <link
+            rel="stylesheet"
+            href="https://use.fontawesome.com/releases/v5.7.1/css/all.css"
+            integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+            crossorigin="anonymous"
+        />
+    </body>
+</html>
